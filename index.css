@@ -1,0 +1,199 @@
+body{
+    background-color: rgba(104, 108, 163, 0.39) !important;
+
+}
+.navbar{
+    background-color: grey !important;
+}
+.nav-link:hover {
+      color: #57502d !important;
+      /* font-size: 0px; */
+       /* Change to your desired hover color */
+    }
+
+    #applybtn{
+        background-color: rgb(255, 255, 255);
+        outline: none;
+    }
+    #applybtn:hover{
+        background-color: rgb(212,213,232);
+      color: #57502d !important;
+        /* padding: 3px 10px !important; */
+    }
+#computer{
+    padding-left: 5px !important;
+    color: green;
+
+}
+.list{
+    margin-left: 30px;
+}
+.sectiona{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: auto;
+    height:auto;
+    margin-top:40px;
+
+    /* border: 2px solid black; */
+    column-span: 2;
+    background-color: rgba(206, 207, 207, 0.904);
+    /* padding-bottom: 120px; */
+    /* background: url(/cmp10.jpeg); */
+}
+.boxa{
+    width: 50%;
+    /* border: 2px solid blue; */
+padding: 100px 20px;
+margin: 20px ;
+}
+#welcome{
+    font-size: 300% !important;
+}
+.boxb{
+    width: 50%;
+    /* border: 2px solid blue; */
+    padding: 10px 20px;
+    margin: 20px ;
+}
+.img1{
+ /* border: 2px solid blue; */
+    margin: auto;
+    margin: 20px;
+}
+img{
+ border-radius: 5%  ;
+
+}
+#comp1{
+    width: 100%;
+ border-radius: 5%  ;
+
+}
+.seccboxs{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red; */
+    padding: 20px 10px 40px 60px;
+    gap: 40px;
+    margin: auto;
+}
+.boxc{
+    width: 30%;
+}
+.boxd{
+    width: 30%;
+}
+.boxe{
+    width: 30%;
+}
+
+.secdboxs{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    margin-bottom: 150px !important;
+
+}
+
+.boxf{
+    width: 50%;
+
+    /* border: 2px solid red; */
+}
+.boxg{
+    width: 50%;
+    /* border: 2px solid red; */
+    padding: 30px 20px;
+}
+.footercontainer{
+    justify-content: space-evenly;
+    padding: 20px 30px;
+    /* margin: auto; */
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 900px) {
+.sectiona{
+    display: flex;
+    flex-direction: column;
+}
+
+.boxa{
+    width: 100%;
+    /* border: 2px solid blue; */
+padding: 50px 5px;
+margin: 0px  !important;
+}
+.boxb{
+    width: 100%;
+    /* border: 2px solid blue; */
+    padding: 10px 10px;
+    margin: 0px ;
+}
+.img1{
+ /* border: 2px solid blue; */
+    margin: auto;
+    margin: 20px;
+}
+#welcome{
+width: 100% !important;
+/* background-color: red; */
+}
+/* *{ */
+/* background-color: red;   
+border: 2px solid blueviolet;  */
+/* } */
+.seccboxs{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.boxc{
+    width: 90%;
+}
+.boxd{
+    width: 90%;
+}
+.boxe{
+    width: 90%;
+}
+
+
+.secdboxs{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.boxf{
+    width: 100%;
+    margin-left:15px;
+    /* margin: auto; */
+    /* border: 2px solid red; */
+}
+.boxg{
+    width: 100%;
+    /* border: 2px solid red; */
+    /* padding: 30px 20px; */
+}
+#rightbox{
+ /* border: 2px solid red; */
+    width: 100% !important;
+}
+.leftbox{
+    width: 100% !important ;
+}
+.caroselsection{
+    display: flex;
+    flex-direction: column;
+}
+}
